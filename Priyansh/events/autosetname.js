@@ -1,9 +1,14 @@
+/**
+* @author ROBIN
+* @warn Do not edit code or edit credits
+* @Dont Change This Credits Otherwisw Your Bot Lol
+*/
 module.exports.config = {
 	name: "autosetname",
 	eventType: ["log:subscribe"],
 	version: "1.0.3",
-	credits: "𝙋𝙧𝙞𝙮𝙖𝙣𝙨𝙝 𝙍𝙖𝙟𝙥𝙪𝙩",
-	description: "Automatically set new member nicknames"
+	credits: "ROBIN",
+	description: "Dont Change Credit otherwise your bot is lol"
 };
 
 module.exports.run = async function({ api, event, Users }) {
@@ -24,5 +29,5 @@ var memJoin = event.logMessageData.addedParticipants.map(info => info.userFbId)
 		api.changeNickname(`${setName} ${namee}`, threadID, idUser);
 		} 
 	}	
-	return api.sendMessage(`Set a temporary nickname for the new member`, threadID, event.messageID)
+	return api.sendMessage(`New ya old member ka nickname rakhna hai to daso😹`, threadID, event.messageID)
 }
