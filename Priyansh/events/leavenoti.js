@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "leave",
 	eventType: ["log:unsubscribe"],
 	version: "1.0.0",
-	credits: "ROBIN",
+	credits: "Robin",
 	description: "Notify the Bot or the person leaving the group with a random gif/photo/video",
 	dependencies: {
 		"fs-extra": "",
@@ -29,7 +29,7 @@ module.exports.run = async function({ api, event, Users, Threads }) {
 	const { join } =  global.nodemodule["path"];
 	const { threadID } = event;
   const moment = require("moment-timezone");
-  const time = moment.tz("Asia/Karachi").format("DD/MM/YYYY || HH:mm:s");
+  const time = moment.tz("Asia/Karach").format("DD/MM/YYYY || HH:mm:s");
   const hours = moment.tz("Asia/Karachi").format("HH");
 	const data = global.data.threadData.get(parseInt(threadID)) || (await Threads.getData(threadID)).data;
 	const name = global.data.userName.get(event.logMessageData.leftParticipantFbId) || await Users.getNameUser(event.logMessageData.leftParticipantFbId);
@@ -40,7 +40,7 @@ module.exports.run = async function({ api, event, Users, Threads }) {
 
 	if (existsSync(path)) mkdirSync(path, { recursive: true });
 
-(typeof data.customLeave == "undefined") ? msg = "𝗔𝗟𝗟𝗔𝗛 𝗛𝗔𝗙𝗜𝗭 🙂\n\n 〡✶ {name} ✶〡 𝗞𝗛𝗔𝗬𝗔𝗟 𝗥𝗔𝗞𝗛𝗡𝗔 𝗔𝗣𝗡𝗔 𝗗𝗘𝗔𝗥 𝗣𝗛𝗜𝗥 𝗠𝗜𝗟𝗘𝗡 𝗚𝗬 𝗭𝗜𝗡𝗗𝗔𝗚𝗬 𝗥𝗔𝗛𝗬𝗘 𝗧𝗢 🍂🥀 \n\n" : msg = data.customLeave;
+(typeof data.customLeave == "undefined") ? msg = "𝗔𝗟𝗟𝗔𝗛 𝗛𝗔𝗙𝗜𝗭 🙂\n\n 〡✶ {name} ✶〡 𝗞𝗛𝗔𝗬𝗔𝗟 𝗥𝗔𝗞𝗛𝗡𝗔 𝗔𝗣𝗡𝗔 𝗗𝗘𝗔𝗥 𝗣𝗛𝗜𝗥 𝗠𝗜𝗟𝗘𝗡 𝗚𝗬 𝗭𝗜𝗡𝗗𝗔𝗚𝗬 𝗥𝗔𝗛𝗬𝗘 𝗧𝗢 🍂🥀💐<3😊💔\n\n[❤️‍🔥] 🖤🖤😥😥...Good {session} || {time}" : msg = data.customLeave;
 	msg = msg.replace(/\{name}/g, name).replace(/\{type}/g, type).replace(/\{session}/g, hours <= 10 ? "𝙈𝙤𝙧𝙣𝙞𝙣𝙜" : 
     hours > 10 && hours <= 12 ? "𝘼𝙛𝙩𝙚𝙧𝙉𝙤𝙤𝙣" :
     hours > 12 && hours <= 18 ? "𝙀𝙫𝙚𝙣𝙞𝙣𝙜" : "𝙉𝙞𝙜𝙝𝙩").replace(/\{time}/g, time);  
@@ -55,4 +55,4 @@ module.exports.run = async function({ api, event, Users, Threads }) {
 	else formPush = { body: msg }
 	
 	return api.sendMessage(formPush, threadID);
-                            }
+}
