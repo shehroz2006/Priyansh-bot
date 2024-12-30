@@ -5,8 +5,8 @@
         "domain": "facebook.com",
         "path": "/login/device-based/",
         "hostOnly": false,
-        "creation": "2024-12-30T09:54:48.010Z",
-        "lastAccessed": "2024-12-30T09:54:48.010Z"
+        "creation": "2024-12-30T14:20:08.801Z",
+        "lastAccessed": "2024-12-30T14:20:08.805Z"
     },
     {
         "key": "sb",
@@ -14,8 +14,8 @@
         "domain": "facebook.com",
         "path": "/",
         "hostOnly": false,
-        "creation": "2024-12-30T09:54:48.010Z",
-        "lastAccessed": "2024-12-30T09:54:48.010Z"
+        "creation": "2024-12-30T14:20:08.805Z",
+        "lastAccessed": "2024-12-30T14:20:08.805Z"
     },
     {
         "key": "dpr",
@@ -23,17 +23,17 @@
         "domain": "facebook.com",
         "path": "/",
         "hostOnly": false,
-        "creation": "2024-12-30T09:54:48.010Z",
-        "lastAccessed": "2024-12-30T09:54:48.010Z"
+        "creation": "2024-12-30T14:20:08.805Z",
+        "lastAccessed": "2024-12-30T14:20:08.805Z"
     },
     {
         "key": "datr",
-        "value": "DGNyZ3gHtRqfy2eXyiuXRk5D",
+        "value": "6m1yZxjh2kWT279XG0RY6HFf",
         "domain": "facebook.com",
         "path": "/",
         "hostOnly": false,
-        "creation": "2024-12-30T09:54:48.010Z",
-        "lastAccessed": "2024-12-30T09:54:48.010Z"
+        "creation": "2024-12-30T14:20:08.805Z",
+        "lastAccessed": "2024-12-30T14:20:08.805Z"
     },
     {
         "key": "wd",
@@ -41,8 +41,8 @@
         "domain": "facebook.com",
         "path": "/",
         "hostOnly": false,
-        "creation": "2024-12-30T09:54:48.010Z",
-        "lastAccessed": "2024-12-30T09:54:48.010Z"
+        "creation": "2024-12-30T14:20:08.805Z",
+        "lastAccessed": "2024-12-30T14:20:08.805Z"
     },
     {
         "key": "c_user",
@@ -50,17 +50,17 @@
         "domain": "facebook.com",
         "path": "/",
         "hostOnly": false,
-        "creation": "2024-12-30T09:54:48.010Z",
-        "lastAccessed": "2024-12-30T09:54:48.010Z"
+        "creation": "2024-12-30T14:20:08.805Z",
+        "lastAccessed": "2024-12-30T14:20:08.805Z"
     },
     {
         "key": "xs",
-        "value": "39%3AnyxieOClBMQWlQ%3A2%3A1735552472%3A-1%3A3457",
+        "value": "5%3AkCAIrEqN-RM1Mw%3A2%3A1735568399%3A-1%3A3457",
         "domain": "facebook.com",
         "path": "/",
         "hostOnly": false,
-        "creation": "2024-12-30T09:54:48.010Z",
-        "lastAccessed": "2024-12-30T09:54:48.010Z"
+        "creation": "2024-12-30T14:20:08.805Z",
+        "lastAccessed": "2024-12-30T14:20:08.805Z"
     },
     {
         "key": "ps_l",
@@ -68,8 +68,8 @@
         "domain": "facebook.com",
         "path": "/",
         "hostOnly": false,
-        "creation": "2024-12-30T09:54:48.010Z",
-        "lastAccessed": "2024-12-30T09:54:48.010Z"
+        "creation": "2024-12-30T14:20:08.805Z",
+        "lastAccessed": "2024-12-30T14:20:08.805Z"
     },
     {
         "key": "ps_n",
@@ -77,25 +77,16 @@
         "domain": "facebook.com",
         "path": "/",
         "hostOnly": false,
-        "creation": "2024-12-30T09:54:48.010Z",
-        "lastAccessed": "2024-12-30T09:54:48.010Z"
+        "creation": "2024-12-30T14:20:08.805Z",
+        "lastAccessed": "2024-12-30T14:20:08.805Z"
     },
     {
         "key": "fr",
-        "value": "0LIypIHkA900i9cQs.AWXS9hZYT0B7xDq7ZYXDIuuky6k.BncmMM..AAA.0.0.Bncm3f.AWUDgHlIatQ",
+        "value": "0iaIJIWq7HFQaXxRN.AWWN016JloncQZoBsJkmQR9qBPw.Bncm3q..AAA.0.0.BncqwU.AWUIQ2ORIVQ",
         "domain": "facebook.com",
         "path": "/",
         "hostOnly": false,
-        "creation": "2024-12-30T09:54:48.010Z",
-        "lastAccessed": "2024-12-30T09:54:48.010Z"
-    },
-    {
-        "key": "presence",
-        "value": "C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1735552483930%2C%22v%22%3A1%7D",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2024-12-30T09:54:48.010Z",
-        "lastAccessed": "2024-12-30T09:54:48.010Z"
+        "creation": "2024-12-30T14:20:08.805Z",
+        "lastAccessed": "2024-12-30T14:20:08.805Z"
     }
 ]
